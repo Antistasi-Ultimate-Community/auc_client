@@ -5,7 +5,14 @@ class CfgFunctions
         class debug 
         {
             file = QPATHTOFOLDER(functions\debug);
-            class testing {};
+            class canRunInit {};
+            class initPost {postInit = 1};
+            class initPre {preInit = 1};
+        };
+        class utility 
+        {
+            file = QPATHTOFOLDER(functions\utility);
+            class log {};
         };
     };
 };
