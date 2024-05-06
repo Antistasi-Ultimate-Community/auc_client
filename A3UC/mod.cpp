@@ -1,0 +1,15 @@
+name = "Antistasi Ultimate Community Client Addon";
+author = "Silence, MaxxLite";
+description = "";
+tooltip = "A3UC Client";
+tooltipOwned = "A3UC Client";
+overview = "A clientside addon for Antistasi Ultimate Community";
+actionName = "GitHub";
+action = "https://github.com/SilenceIsFatto/tbd";
+hideName = 0;
+hidePicture = 0;
+dlcColor[] = {1, 0, 0, 1};
+logo = "\z\a3uc\addons\core\logo_ca.paa"; // Logo displayed in the main menu
+logoOver = "\z\a3uc\addons\core\logo_ca.paa"; // When the mouse is over, in the main menu
+picture = "\z\a3uc\addons\core\logo_ca.paa"; // Picture displayed from the expansions menu. Optimal size is 2048x1024
+logoSmall = "\z\a3uc\addons\core\logo_ca.paa"; // Display in creative lists, next to the entities added by the mod
