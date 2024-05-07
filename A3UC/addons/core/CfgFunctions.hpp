@@ -6,6 +6,7 @@ class CfgFunctions
         {
             file = QPATHTOFOLDER(functions\init);
             class canRunInit {};
+            class initAnti {};
             class initPost {postInit = 1};
             class initPre {preInit = 1};
             class initVars {};
