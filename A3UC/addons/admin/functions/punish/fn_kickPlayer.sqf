@@ -1,7 +1,8 @@
 params [
-    ["_reason", "forbidden_mods"]
+    "_reason",
+    ["_message", ""]
 ];
 
-[(format["Kicking player. Reason: %1.", _reason]), _fnc_scriptName] call A3UC_fnc_log;
+[(format["Kicking player. Reason: %1. Note: %2", _reason, _message]), _fnc_scriptName, "server"] call A3UC_fnc_log;
 
-[_reason, false, 1, false, false] call BIS_fnc_endMission
+[_reason, false, 1, false, false] call BIS_fnc_endMission;
