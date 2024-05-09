@@ -10,7 +10,7 @@
         _message <STRING> <DEFAULT: "N/A">
     
     Usage:
-        ["forbidden_mods", "Player loaded forbidden mods."] call A3UC_fnc_NAME;
+        ["forbidden_mods", "Player loaded forbidden mods."] call A3UC_fnc_kickPlayer;
     
     Return:
         _return <TYPE>
