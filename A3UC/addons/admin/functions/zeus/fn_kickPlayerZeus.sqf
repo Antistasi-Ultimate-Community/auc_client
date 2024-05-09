@@ -1,3 +1,20 @@
+/*
+    Author:
+        Silence
+    
+    Description:
+        Creates a Zeus Enhanced modular dialog and kicks the player you right clicked on with given params
+    
+    Params:
+        _unit <OBJECT>
+    
+    Usage:
+        [player] call A3UC_fnc_kickPlayerZeus;
+    
+    Return:
+        N/A
+*/
+
 params ["_unit"];
 
 [
