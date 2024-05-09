@@ -6,7 +6,7 @@ class CfgDebriefing
         subtitle = "CHEATER ALERT!";
         title = "CHEATER ALERT!";
         showScore = 0;
-        picture = QPATHTOFOLDER(data\kick_image_co.jpg);
+        // picture = QPATHTOFOLDER(data\kick_image_co.jpg);
         pictureBackground = "";
     };
 };
