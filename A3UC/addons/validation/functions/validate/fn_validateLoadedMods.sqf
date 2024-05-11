@@ -1,3 +1,20 @@
+/*
+    Author:
+        Silence
+    
+    Description:
+        Checks if client has CfgPatches entries loaded from array
+    
+    Params:
+        _forbiddenMods <ARRAY> <Default: A3UC_forbiddenMods>
+    
+    Usage:
+        call A3UC_fnc_validateLoadedMods;
+    
+    Return:
+        true/false <BOOL>
+*/
+
 params [
     ["_forbiddenMods", A3UC_forbiddenMods]
 ];

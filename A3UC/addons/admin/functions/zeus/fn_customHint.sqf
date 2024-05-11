@@ -3,7 +3,7 @@
         Silence
     
     Description:
-        Creates an Antistasi hint based on the params returned by A3UC_fnc_customHintDialog
+        Creates a global Antistasi hint based on the params returned by A3UC_fnc_customHintDialog
     
     Params:
         _any <ARRAY>
