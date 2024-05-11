@@ -2,12 +2,14 @@ class CfgFunctions
 {
     class MOD_CONSTANT
     {
-        class debug 
+        class init 
         {
-            file = QPATHTOFOLDER(functions\debug);
+            file = QPATHTOFOLDER(functions\init);
             class canRunInit {};
+            class initAnti {};
             class initPost {postInit = 1};
             class initPre {preInit = 1};
+            class initVars {};
         };
         class utility 
         {

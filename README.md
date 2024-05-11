@@ -3,8 +3,9 @@
   <p>
     <i>A mod for the AUC server, bringing new content for our players.</i>
   </p>
-
-  <!-- ![menu](https://github.com/SilenceIsFatto/menu-framework/assets/78276788/cbde9452-f69c-46a9-a367-db52b9dcb31b) -->
-
-  ***
+  
+  <p float="left">
+    <img src="/Yellow.png" width="300" />
+    <img src="/YellowAUC.png" width="300" /> 
+  </p>
 </div>

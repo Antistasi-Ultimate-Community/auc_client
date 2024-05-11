@@ -9,7 +9,7 @@ class CfgPatches
 		weapons[] = {};
 		requiredVersion = REQUIRED_VERSION;
 		requiredAddons[] = {
-            "A3_Functions_F",
+            "A3A_ultimate",
 		};
 		author = AUTHOR;
 		authorUrl = "";
