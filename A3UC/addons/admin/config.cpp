@@ -20,8 +20,9 @@ class CfgPatches
 
 #include "CfgFunctions.hpp"
 #include "CfgDebriefing.hpp"
+#include "macros_zen.hpp"
 
 class zen_context_menu_actions
 {
-	#include "cfgZEN.hpp"
+	#include "CfgZEN.hpp"
 };

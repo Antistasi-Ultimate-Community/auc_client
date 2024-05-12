@@ -18,6 +18,7 @@
 params [["_cargo", objNull]];
 
 if (_cargo isEqualTo objNull) exitWith {false};
+if (_cargo getVariable ["AttachmentOffset", []] isNotEqualTo []) exitWith {false};
 
 private _cargoConfig = [_cargo] call A3A_Logistics_fnc_getCargoConfig;
 if !(isNull _cargoConfig) exitWith {true};

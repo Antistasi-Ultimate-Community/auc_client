@@ -20,8 +20,10 @@ class CfgFunctions
         class utility 
         {
             file = QPATHTOFOLDER(functions\utility);
+            class hasInventory {};
             class isObject {};
             class isPlayer {};
+            class isStatic {};
             class isVehicle {};
             class log {};
             class isAntistasi {};

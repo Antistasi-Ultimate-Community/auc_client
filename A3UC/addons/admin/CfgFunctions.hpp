@@ -12,6 +12,7 @@ class CfgFunctions
         {
             file = QPATHTOFOLDER(functions\zeus);
             class canLoadCargo {};
+            class canUnloadCargo {};
             class customHint {};
             class customHintDialog {};
             class kickPlayerZeus {};
