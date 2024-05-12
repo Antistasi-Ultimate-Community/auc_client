@@ -217,8 +217,8 @@ class Maxx_Net_Mask: Maxx_Net_Mask_BASE
 };
 class Maxx_Net_Mask_SnowCamo: Maxx_Net_Mask
 {
-    scope=2;
-    scopeCurator=2;
+    scope=1;
+    scopeCurator=1;
     displayName="Net Mask (Snow Camo)";
     hiddenSelections[]={"camo"};
     hiddenSelectionsTextures[]={QPATHTOFOLDER(Data\NetMask\Maxx_Net_Mask_SnowCamo.paa)};

@@ -105,13 +105,137 @@ class AUC_Plad_Uni_3_F: AUC_Plad_Uni_F
     uniformClass="U_AUC_Plad_Uni_3_F";
     model="\A3\Characters_F_Exp\BLUFOR\B_CTRG_Soldier_03_F.p3d";
 };
-class C_E_LooterJacket_01_F;
-class UAC_Looter_Base: C_E_LooterJacket_01_F
+class I_C_Soldier_Bandit_3_F;
+class AUC_Civ_1: I_C_Soldier_Bandit_3_F
 {
-    uniformClass="U_UAC_Looter_Base";
+    _generalMacro="AUC_Civ_1";
+    scope=1;
+    displayName="Blue";
+    uniformClass="U_AUC_Civ_1";
     hiddenSelectionsTextures[]=
     {
-        QPATHTOFOLDER(Data\Clothing\AUC_Looter_Base_co.paa),
-        "a3\characters_f_beta\indep\data\ia_soldier_01_clothing_co.paa"
+        QPATHTOFOLDER(Data\Clothing\AUC_Civ_1_Shirt_Blue.paa),
+        QPATHTOFOLDER(Data\Clothing\AUC_Civ_1_Jeans_Blue.paa)
+    };
+};
+class AUC_Civ_2: AUC_Civ_1
+{
+    _generalMacro="AUC_Civ_2";
+    uniformClass="U_AUC_Civ_2";
+    displayName="Designer";
+    hiddenSelectionsTextures[]=
+    {
+        QPATHTOFOLDER(Data\Clothing\AUC_Civ_1_Shirt_Designer.paa),
+        QPATHTOFOLDER(Data\Clothing\AUC_Civ_1_Jeans_Designer.paa)
+    };
+};
+class AUC_Civ_3: AUC_Civ_1
+{
+    _generalMacro="AUC_Civ_3";
+    uniformClass="U_AUC_Civ_3";
+    displayName="Black";
+    hiddenSelectionsTextures[]=
+    {
+        QPATHTOFOLDER(Data\Clothing\AUC_Civ_1_Shirt_Black.paa),
+        QPATHTOFOLDER(Data\Clothing\AUC_Civ_1_Jeans_Black.paa)
+    };
+};
+class AUC_Civ_4: AUC_Civ_1
+{
+    _generalMacro="AUC_Civ_4";
+    uniformClass="U_AUC_Civ_4";
+    displayName="Blue Green";
+    hiddenSelectionsTextures[]=
+    {
+        QPATHTOFOLDER(Data\Clothing\AUC_Civ_1_Shirt_Green.paa),
+        QPATHTOFOLDER(Data\Clothing\AUC_Civ_1_Jeans_Blue.paa)
+    };
+};
+class AUC_Civ_5: AUC_Civ_1
+{
+    _generalMacro="AUC_Civ_5";
+    uniformClass="U_AUC_Civ_5";
+    displayName="Gray Red";
+    hiddenSelectionsTextures[]=
+    {
+        QPATHTOFOLDER(Data\Clothing\AUC_Civ_1_Shirt_Red.paa),
+        QPATHTOFOLDER(Data\Clothing\AUC_Civ_1_Jeans_Blue.paa)
+    };
+};
+class AUC_Civ_6: AUC_Civ_1
+{
+    _generalMacro="AUC_Civ_6";
+    uniformClass="U_AUC_Civ_6";
+    displayName="Blue Yellow";
+    hiddenSelectionsTextures[]=
+    {
+        QPATHTOFOLDER(Data\Clothing\AUC_Civ_1_Shirt_Yellow.paa),
+        QPATHTOFOLDER(Data\Clothing\AUC_Civ_1_Jeans_Blue.paa)
+    };
+};
+class AUC_Civ_7: AUC_Civ_1
+{
+    _generalMacro="AUC_Civ_7";
+    uniformClass="U_AUC_Civ_7";
+    displayName="Blue Orange";
+    hiddenSelectionsTextures[]=
+    {
+        QPATHTOFOLDER(Data\Clothing\AUC_Civ_1_Shirt_Orange.paa),
+        QPATHTOFOLDER(Data\Clothing\AUC_Civ_1_Jeans_Blue.paa)
+    };
+};
+class AUC_Civ_8: AUC_Civ_1
+{
+    _generalMacro="AUC_Civ_8";
+    uniformClass="U_AUC_Civ_8";
+    displayName="Black Green";
+    hiddenSelectionsTextures[]=
+    {
+        QPATHTOFOLDER(Data\Clothing\AUC_Civ_1_Shirt_Green.paa),
+        QPATHTOFOLDER(Data\Clothing\AUC_Civ_1_Jeans_Black.paa)
+    };
+};
+class AUC_Civ_9: AUC_Civ_1
+{
+    _generalMacro="AUC_Civ_9";
+    uniformClass="U_AUC_Civ_9";
+    displayName="Black Red";
+    hiddenSelectionsTextures[]=
+    {
+        QPATHTOFOLDER(Data\Clothing\AUC_Civ_1_Shirt_Red.paa),
+        QPATHTOFOLDER(Data\Clothing\AUC_Civ_1_Jeans_Black.paa)
+    };
+};
+class AUC_Civ_10: AUC_Civ_1
+{
+    _generalMacro="AUC_Civ_10";
+    uniformClass="U_AUC_Civ_10";
+    displayName="Black Blue";
+    hiddenSelectionsTextures[]=
+    {
+        QPATHTOFOLDER(Data\Clothing\AUC_Civ_1_Shirt_Blue.paa),
+        QPATHTOFOLDER(Data\Clothing\AUC_Civ_1_Jeans_Black.paa)
+    };
+};
+class AUC_Civ_11: AUC_Civ_1
+{
+    _generalMacro="AUC_Civ_11";
+    uniformClass="U_AUC_Civ_11";
+    displayName="Black Yellow";
+    hiddenSelectionsTextures[]=
+    {
+        QPATHTOFOLDER(Data\Clothing\AUC_Civ_1_Shirt_Yellow.paa),
+        QPATHTOFOLDER(Data\Clothing\AUC_Civ_1_Jeans_Black.paa)
+    };
+};
+class AUC_Civ_12: AUC_Civ_1
+{
+    _generalMacro="AUC_Civ_12";
+    uniformClass="U_AUC_Civ_12";
+    displayName="Black Orange";
+    hiddenSelectionsTextures[]=
+    {
+        QPATHTOFOLDER(Data\Clothing\AUC_Civ_1_Shirt_Orange.paa),
+        QPATHTOFOLDER(Data\Clothing\AUC_Civ_1_Jeans_Black.paa)
     };
 };

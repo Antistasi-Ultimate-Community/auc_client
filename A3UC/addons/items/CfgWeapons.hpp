@@ -245,27 +245,161 @@ class AUC_Plad_Uni_3: AUC_Plad_Uni
         mass=40;
     };
 };
-
-class U_UAC_Looter_Base: Uniform_Base
+class U_AUC_Civ_1: Uniform_Base
 {
-    author="$STR_A3_Bohemia_Interactive";
     scope=2;
-    displayName="Looter (Base)";
-    picture="\a3\Characters_F_Enoch\Uniforms\data\ui\icon_U_C_E_LooterJacket_01_F_ca.paa";
+    scopeCurator=2;
+    displayName="Civ Clothes (Blue)";
+    picture="\A3\characters_f_exp\syndikat\data\ui\icon_U_I_C_Soldier_Bandit_3_F_ca.paa";
     model="\A3\Characters_F\Common\Suitpacks\suitpack_original_F.p3d";
-    hiddenSelections[]=
-    {
-        "camo"
-    };
-    hiddenSelectionsTextures[]=
-    {
-        QPATHTOFOLDER(Data\Clothing\AUC_Looter_Base_co.paa)
-    };
+    hiddenSelections[]={"camo"};
+    hiddenSelectionsTextures[]={QPATHTOFOLDER(Data\Clothing\AUC_Civ_1_Shirt_Blue.paa)};
     class ItemInfo: UniformItem
     {
         uniformModel="-";
-        uniformClass="UAC_Looter_Base";
+        uniformClass="AUC_Civ_1";
         containerClass="Supply30";
         mass=30;
     };
+};
+class U_AUC_Civ_2: U_AUC_Civ_1
+{
+    displayName="Civ Clothes (Designer)";
+    hiddenSelectionsTextures[]={QPATHTOFOLDER(Data\Clothing\AUC_Civ_1_Shirt_Designer.paa)};
+    class ItemInfo: UniformItem
+    {
+        uniformModel="-";
+        uniformClass="AUC_Civ_2";
+        containerClass="Supply30";
+        mass=30;
+    };
+}
+class U_AUC_Civ_3: U_AUC_Civ_1
+{
+    displayName="Civ Clothes (Black)";
+    hiddenSelectionsTextures[]={QPATHTOFOLDER(Data\Clothing\AUC_Civ_1_Shirt_Black.paa)};
+    class ItemInfo: UniformItem
+    {
+        uniformModel="-";
+        uniformClass="AUC_Civ_3";
+        containerClass="Supply30";
+        mass=30;
+    };
+}
+class U_AUC_Civ_4: U_AUC_Civ_1
+{
+    displayName="Civ Clothes (Green & Blue)";
+    hiddenSelectionsTextures[]={QPATHTOFOLDER(Data\Clothing\AUC_Civ_1_Shirt_Green.paa)};
+    class ItemInfo: UniformItem
+    {
+        uniformModel="-";
+        uniformClass="AUC_Civ_4";
+        containerClass="Supply30";
+        mass=30;
+    };
+}
+class U_AUC_Civ_5: U_AUC_Civ_1
+{
+    displayName="Civ Clothes (Red & Gray)";
+    hiddenSelectionsTextures[]={QPATHTOFOLDER(Data\Clothing\AUC_Civ_1_Shirt_Red.paa)};
+    class ItemInfo: UniformItem
+    {
+        uniformModel="-";
+        uniformClass="AUC_Civ_5";
+        containerClass="Supply30";
+        mass=30;
+    };
+}
+class U_AUC_Civ_6: U_AUC_Civ_1
+{
+    displayName="Civ Clothes (Blue & Yellow)";
+    hiddenSelectionsTextures[]={QPATHTOFOLDER(Data\Clothing\AUC_Civ_1_Shirt_Yellow.paa)};
+    class ItemInfo: UniformItem
+    {
+        uniformModel="-";
+        uniformClass="AUC_Civ_6";
+        containerClass="Supply30";
+        mass=30;
+    };
+}
+class U_AUC_Civ_7: U_AUC_Civ_1
+{
+    displayName="Civ Clothes (Blue & Orange)";
+    hiddenSelectionsTextures[]={QPATHTOFOLDER(Data\Clothing\AUC_Civ_1_Shirt_Orange.paa)};
+    class ItemInfo: UniformItem
+    {
+        uniformModel="-";
+        uniformClass="AUC_Civ_7";
+        containerClass="Supply30";
+        mass=30;
+    };
+}
+class U_AUC_Civ_8: U_AUC_Civ_1
+{
+    displayName="Civ Clothes (Black & Green)";
+    hiddenSelectionsTextures[]={QPATHTOFOLDER(Data\Clothing\AUC_Civ_1_Shirt_Green.paa)};
+    class ItemInfo: UniformItem
+    {
+        uniformModel="-";
+        uniformClass="AUC_Civ_8";
+        containerClass="Supply30";
+        mass=30;
+    };
+}
+class U_AUC_Civ_9: U_AUC_Civ_1
+{
+    displayName="Civ Clothes (Black & Red)";
+    hiddenSelectionsTextures[]={QPATHTOFOLDER(Data\Clothing\AUC_Civ_1_Shirt_Red.paa)};
+    class ItemInfo: UniformItem
+    {
+        uniformModel="-";
+        uniformClass="AUC_Civ_9";
+        containerClass="Supply30";
+        mass=30;
+    };
+}
+class U_AUC_Civ_10: U_AUC_Civ_1
+{
+    displayName="Civ Clothes (Black & Blue)";
+    hiddenSelectionsTextures[]={QPATHTOFOLDER(Data\Clothing\AUC_Civ_1_Shirt_Blue.paa)};
+    class ItemInfo: UniformItem
+    {
+        uniformModel="-";
+        uniformClass="AUC_Civ_10";
+        containerClass="Supply30";
+        mass=30;
+    };
+}
+class U_AUC_Civ_11: U_AUC_Civ_1
+{
+    displayName="Civ Clothes (Black & Yellow)";
+    hiddenSelectionsTextures[]={QPATHTOFOLDER(Data\Clothing\AUC_Civ_1_Shirt_Yellow.paa)};
+    class ItemInfo: UniformItem
+    {
+        uniformModel="-";
+        uniformClass="AUC_Civ_11";
+        containerClass="Supply30";
+        mass=30;
+    };
+}
+class U_AUC_Civ_12: U_AUC_Civ_1
+{
+    displayName="Civ Clothes (Black & Orange)";
+    hiddenSelectionsTextures[]={QPATHTOFOLDER(Data\Clothing\AUC_Civ_1_Shirt_Orange.paa)};
+    class ItemInfo: UniformItem
+    {
+        uniformModel="-";
+        uniformClass="AUC_Civ_12";
+        containerClass="Supply30";
+        mass=30;
+    };
+}
+class hgun_ACPC2_F;
+class AUC_Colt: hgun_ACPC2_F
+{
+    _generalMacro="AUC_Colt";
+    baseWeapon="AUC_Colt";
+    scope=2;
+    displayname="Colt-1911";
+    hiddenSelectionsTextures[]={QPATHTOFOLDER(Data\Weapons\AUC_Colt_1911_Silver.paa)};
 };
