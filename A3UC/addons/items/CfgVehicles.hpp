@@ -239,3 +239,13 @@ class AUC_Civ_12: AUC_Civ_1
         QPATHTOFOLDER(Data\Clothing\AUC_Civ_1_Jeans_Black.paa)
     };
 };
+class C_Nikos;
+class C_Maxx: C_Nikos
+{
+    editorPreview="\A3\EditorPreviews_F\Data\CfgVehicles\C_Nikos.jpg";
+    _generalMacro="C_Maxx";
+    model="\A3\characters_F\civil\c_Nikos";
+    displayName="Maxx";
+    hiddenSelectionsTextures[]={QPATHTOFOLDER(Data\Clothing\AUC_Dealer.paa)};
+    uniformClass="U_MaxxBody";
+};

@@ -395,11 +395,42 @@ class U_AUC_Civ_12: U_AUC_Civ_1
     };
 }
 class hgun_ACPC2_F;
-class AUC_Colt: hgun_ACPC2_F
+class AUC_Colt_Silver: hgun_ACPC2_F
 {
-    _generalMacro="AUC_Colt";
-    baseWeapon="AUC_Colt";
+    _generalMacro="AUC_Colt_Silver";
+    baseWeapon="AUC_Colt_Silver";
     scope=2;
-    displayname="Colt-1911";
+    displayname="Colt-1911 (Silver)";
     hiddenSelectionsTextures[]={QPATHTOFOLDER(Data\Weapons\AUC_Colt_1911_Silver.paa)};
+};
+class AUC_Colt_Gold: AUC_Colt_Silver
+{
+    _generalMacro="AUC_Colt_Gold";
+    baseWeapon="AUC_Colt_Gold";
+    displayname="Colt-1911 (Gold)";
+    hiddenSelectionsTextures[]={QPATHTOFOLDER(Data\Weapons\AUC_Colt_1911_Gold.paa)};
+};
+class AUC_Colt_Red: AUC_Colt_Silver
+{
+    _generalMacro="AUC_Colt_Red";
+    baseWeapon="AUC_Colt_Red";
+    displayname="Colt-1911 (Red)";
+    hiddenSelectionsTextures[]={QPATHTOFOLDER(Data\Weapons\AUC_Colt_1911_Red.paa)};
+};
+class U_MaxxBody: Uniform_Base
+{
+    scope=2;
+    scopeCurator=2;
+    displayName="Arms Dealer Wear";
+    picture="\A3\characters_f\data\ui\icon_U_Nikos_ca.paa";
+    model="\A3\Characters_F\Common\Suitpacks\suitpack_civilian_F.p3d";
+    hiddenSelections[]={"camo"};
+    hiddenSelectionsTextures[]={QPATHTOFOLDER(Data\Clothing\AUC_Dealer.paa)};
+    class ItemInfo: UniformItem
+    {
+        uniformModel="-";
+        uniformClass="C_Maxx";
+        containerClass="Supply100";
+        mass=10;
+    };
 };
