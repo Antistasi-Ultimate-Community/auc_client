@@ -1,6 +1,7 @@
 //===================Flags===================
 class FlagPole_F;
-class AU_Flag_AU : FlagPole_F{
+class AU_Flag_AU : FlagPole_F
+{
     scope = 2;
     scopeCurator = 2;
     displayName = "(AU) Flag (Antistasi Ultimate)";
@@ -9,7 +10,9 @@ class AU_Flag_AU : FlagPole_F{
         init = "(_this select 0) setFlagTexture 'QPATHTOFOLDER(Data\flag\flag_AU.paa)'";
     };
 };
-class AUC_Flag : AU_Flag_AU{
+
+class AUC_Flag : AU_Flag_AU
+{
     displayName = "(AU) Flag (Antistasi Ultimate)";
     class EventHandlers 
     {
@@ -22,7 +25,7 @@ class B_Soldier_F;
 class B_CTRG_Soldier_base_F;
 class AUC_BLK_Uni_F: B_CTRG_Soldier_base_F
 {
-    author="MaxxLite";
+    author = AUTHOR;
     side = -1;
     modelsides[] = {3, 2, 1, 0};
     _generalMacro="AUC_BLK_Uni_F";

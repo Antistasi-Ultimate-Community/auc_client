@@ -1,5 +1,6 @@
 //===================Hats===================
-class AUC_Hat_Base: ItemCore {
+class AUC_Hat_Base: ItemCore 
+{
     scope = 1;
     displayName = "-";
     picture = QPATHTOFOLDER(Data\Icons\insignias\AU_BLK_INS.paa);
@@ -13,32 +14,38 @@ class AUC_Hat_Base: ItemCore {
         mass = 10;
     };
 };
-class auc_hat_1: AUC_Hat_Base{
+
+class auc_hat_1: AUC_Hat_Base
+{
     scope = 2;
     scopeCurator = 2;
     displayName = "Cap (Antistasi Ultimate)";
     picture = QPATHTOFOLDER(Data\Icons\berets\I_AU_H_Y.paa);
     hiddenSelectionsTextures[] = {QPATHTOFOLDER(Data\berets\auc_hat_1.paa)};
-}
-class auc_hat_2: auc_hat_1{
+};
+class auc_hat_2: auc_hat_1
+{
     displayName = "Cap (Antistasi Ultimate Black)";
     picture = QPATHTOFOLDER(Data\Icons\berets\I_AU_H_B.paa);
     hiddenSelectionsTextures[] = {QPATHTOFOLDER(Data\berets\auc_hat_2.paa)};
-}
-class auc_hat_3: auc_hat_1{
+};
+class auc_hat_3: auc_hat_1
+{
     displayName = "Cap (Antistasi Ultimate White)";
     picture = QPATHTOFOLDER(Data\Icons\berets\I_AU_H_W.paa);
     hiddenSelectionsTextures[] = {QPATHTOFOLDER(Data\berets\auc_hat_3.paa)};
-}
-class auc_hat_4: auc_hat_1{
+};
+class auc_hat_4: auc_hat_1
+{
     displayName = "Cap (Antistasi Ultimate Community)";
     picture = QPATHTOFOLDER(Data\Icons\berets\I_AUC_H.paa);
     hiddenSelectionsTextures[] = {QPATHTOFOLDER(Data\berets\auc_hat_4.paa)};
-}
+};
 
 //===================Berets===================
-class b_AU: ItemCore{
-    author="MaxxLite";
+class b_AU: ItemCore
+{
+    author = AUTHOR;
     scope = 2;
     scopeCurator = 2;
     weaponPoolAvailable=1;
@@ -66,57 +73,68 @@ class b_AU: ItemCore{
         };
     };
 };
-class b_AUC: b_AU{
+class b_AUC: b_AU
+{
     displayName="Beret (Antistasi Ultimate Community)";
     picture = QPATHTOFOLDER(Data\Icons\berets\I_AUC_B_BLK.paa);
     hiddenSelectionsTextures[]={QPATHTOFOLDER(Data\berets\beret_AUC.paa)};
 };
-class b_AU_Green: b_AU{
+class b_AU_Green: b_AU
+{
     displayName="Beret (Green)(Antistasi Ultimate)";
     picture = QPATHTOFOLDER(Data\Icons\berets\I_AU_B_G.paa);
     hiddenSelectionsTextures[]={QPATHTOFOLDER(Data\berets\beret_AU_Green.paa)};
 };
-class b_AUC_Green: b_AU_Green{
+class b_AUC_Green: b_AU_Green
+{
     displayName="Beret (Green)(Antistasi Ultimate Community)";
     picture = QPATHTOFOLDER(Data\Icons\berets\I_AUC_B_G.paa);
     hiddenSelectionsTextures[]={QPATHTOFOLDER(Data\berets\beret_AUC_Green.paa)};
 };
-class b_AU_Blue: b_AU{
+class b_AU_Blue: b_AU
+{
     displayName="Beret (Blue)(Antistasi Ultimate)";
     picture = QPATHTOFOLDER(Data\Icons\berets\I_AU_B_B.paa);
     hiddenSelectionsTextures[]={QPATHTOFOLDER(Data\berets\beret_AU_Blue.paa)};
 };
-class b_AUC_Blue: b_AU_Blue{
+class b_AUC_Blue: b_AU_Blue
+{
     displayName="Beret (Blue)(Antistasi Ultimate Community)";
     picture = QPATHTOFOLDER(Data\Icons\berets\I_AUC_B_B.paa);
     hiddenSelectionsTextures[]={QPATHTOFOLDER(Data\berets\beret_AUC_Blue.paa)};
 };
-class b_AU_Yellow: b_AU{
+class b_AU_Yellow: b_AU
+{
     displayName="Beret (Yellow)(Antistasi Ultimate)";
     picture = QPATHTOFOLDER(Data\Icons\berets\I_AU_B_Y.paa);
     hiddenSelectionsTextures[]={QPATHTOFOLDER(Data\berets\beret_AU_Yellow.paa)};
 };
-class b_AUC_Yellow: b_AU_Yellow{
+class b_AUC_Yellow: b_AU_Yellow
+{
     displayName="Beret (Yellow)(Antistasi Ultimate Community)";
     picture = QPATHTOFOLDER(Data\Icons\berets\I_AUC_B_Y.paa);
     hiddenSelectionsTextures[]={QPATHTOFOLDER(Data\berets\beret_AUC_Yellow.paa)};
 };
-class b_AU_Red: b_AU{
+class b_AU_Red: b_AU
+{
     displayName="Beret (Red)(Antistasi Ultimate)";
     picture = QPATHTOFOLDER(Data\Icons\berets\I_AU_B_R.paa);
     hiddenSelectionsTextures[]={QPATHTOFOLDER(Data\berets\beret_AU_Red.paa)};
 };
-class b_AUC_Red: b_AU_Red{
+class b_AUC_Red: b_AU_Red
+{
     displayName="Beret (Red)(Antistasi Ultimate Community)";
     picture = QPATHTOFOLDER(Data\Icons\berets\I_AUC_B_R.paa);
     hiddenSelectionsTextures[]={QPATHTOFOLDER(Data\berets\beret_AUC_Red.paa)};
 };
-class b_AU_Orange: b_AU{
+class b_AU_Orange: b_AU
+{
     displayName="Beret (Orange)(Antistasi Ultimate)";
     picture = QPATHTOFOLDER(Data\Icons\berets\I_AU_B_O.paa);
     hiddenSelectionsTextures[]={QPATHTOFOLDER(Data\berets\beret_AU_Orange.paa)};
 };
-class b_AUC_Orange: b_AU_Orange{
+class b_AUC_Orange: b_AU_Orange
+{
     displayName="Beret (Orange)(Antistasi Ultimate Community)";
     picture = QPATHTOFOLDER(Data\Icons\berets\I_AUC_B_O.paa);
     hiddenSelectionsTextures[]={QPATHTOFOLDER(Data\berets\beret_AUC_Orange.paa)};
@@ -125,7 +143,7 @@ class b_AUC_Orange: b_AU_Orange{
 //===================Uniforms===================
 class AUC_BLK_Uni: Uniform_Base
 {
-    author="MaxxLite";
+    author = AUTHOR;
     scope=2;
     displayName="Combat Uniform (Black)";
     picture = QPATHTOFOLDER(Data\Icons\insignias\AU_BLK_INS.paa);
@@ -273,7 +291,7 @@ class U_AUC_Civ_2: U_AUC_Civ_1
         containerClass="Supply30";
         mass=30;
     };
-}
+};
 class U_AUC_Civ_3: U_AUC_Civ_1
 {
     displayName="Civ Clothes (Black)";
@@ -285,7 +303,7 @@ class U_AUC_Civ_3: U_AUC_Civ_1
         containerClass="Supply30";
         mass=30;
     };
-}
+};
 class U_AUC_Civ_4: U_AUC_Civ_1
 {
     displayName="Civ Clothes (Green & Blue)";
@@ -297,7 +315,7 @@ class U_AUC_Civ_4: U_AUC_Civ_1
         containerClass="Supply30";
         mass=30;
     };
-}
+};
 class U_AUC_Civ_5: U_AUC_Civ_1
 {
     displayName="Civ Clothes (Red & Gray)";
@@ -309,7 +327,7 @@ class U_AUC_Civ_5: U_AUC_Civ_1
         containerClass="Supply30";
         mass=30;
     };
-}
+};
 class U_AUC_Civ_6: U_AUC_Civ_1
 {
     displayName="Civ Clothes (Blue & Yellow)";
@@ -321,7 +339,7 @@ class U_AUC_Civ_6: U_AUC_Civ_1
         containerClass="Supply30";
         mass=30;
     };
-}
+};
 class U_AUC_Civ_7: U_AUC_Civ_1
 {
     displayName="Civ Clothes (Blue & Orange)";
@@ -333,7 +351,7 @@ class U_AUC_Civ_7: U_AUC_Civ_1
         containerClass="Supply30";
         mass=30;
     };
-}
+};
 class U_AUC_Civ_8: U_AUC_Civ_1
 {
     displayName="Civ Clothes (Black & Green)";
@@ -345,7 +363,7 @@ class U_AUC_Civ_8: U_AUC_Civ_1
         containerClass="Supply30";
         mass=30;
     };
-}
+};
 class U_AUC_Civ_9: U_AUC_Civ_1
 {
     displayName="Civ Clothes (Black & Red)";
@@ -357,7 +375,7 @@ class U_AUC_Civ_9: U_AUC_Civ_1
         containerClass="Supply30";
         mass=30;
     };
-}
+};
 class U_AUC_Civ_10: U_AUC_Civ_1
 {
     displayName="Civ Clothes (Black & Blue)";
@@ -369,7 +387,7 @@ class U_AUC_Civ_10: U_AUC_Civ_1
         containerClass="Supply30";
         mass=30;
     };
-}
+};
 class U_AUC_Civ_11: U_AUC_Civ_1
 {
     displayName="Civ Clothes (Black & Yellow)";
@@ -381,7 +399,7 @@ class U_AUC_Civ_11: U_AUC_Civ_1
         containerClass="Supply30";
         mass=30;
     };
-}
+};
 class U_AUC_Civ_12: U_AUC_Civ_1
 {
     displayName="Civ Clothes (Black & Orange)";
@@ -393,7 +411,7 @@ class U_AUC_Civ_12: U_AUC_Civ_1
         containerClass="Supply30";
         mass=30;
     };
-}
+};
 class hgun_ACPC2_F;
 class AUC_Colt_Silver: hgun_ACPC2_F
 {

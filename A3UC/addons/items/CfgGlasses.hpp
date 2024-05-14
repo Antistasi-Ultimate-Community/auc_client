@@ -1,7 +1,7 @@
 //===================Glasses===================
 class AUC_g_Combat_Black : G_Combat
 {
-    author="MaxxLite";
+    author = AUTHOR;
     displayname="Combat Goggles (Black)";
     model="\A3\characters_f_beta\heads\glasses\g_combat";
     picture = "\A3\Characters_F\data\ui\icon_g_combat_CA.paa";
@@ -20,7 +20,7 @@ class AUC_g_Combat_Black : G_Combat
 //===================Masks===================
 class AUC_Tac_Bal_Skull: G_Balaclava_TI_blk_F
 {
-    author="MaxxLite";
+    author = AUTHOR;
     scope=2;
     scopeCurator=2;
     scopeArsenal=2;
@@ -156,7 +156,7 @@ class AUC_Tac_Bal_BlackCamo_Goggles: AUC_Tac_Bal_Skull_Goggles
 //===================Costume Models===================
 class Maxx_Net_Mask_BASE: G_Diving
 {
-    author="MaxxLite";
+    author = AUTHOR;
     scope=0;
     scopeCurator=0;
     identityTypes[]=

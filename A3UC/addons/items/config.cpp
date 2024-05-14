@@ -8,7 +8,9 @@ class CfgPatches
         units[] = {};
         weapons[] = {};
         requiredVersion = REQUIRED_VERSION;
-        requiredAddons[] = {"A3_Functions_F","A3_Data_F","CBA_Main"};
+        requiredAddons[] = {
+			MOD(core)
+		};
         author = AUTHOR;
         authors[] = { AUTHORS };
         authorUrl = "";
@@ -25,7 +27,9 @@ class CfgUnitInsignia
 {
 	#include "CfgInsignias.hpp"
 };
-class cfgWeapons {
+
+class cfgWeapons 
+{
 	class VestItem;
 	class ItemCore;
 	class HeadgearItem;
@@ -34,6 +38,7 @@ class cfgWeapons {
 	class H_Beret_blk;
 	#include "CfgWeapons.hpp"
 };
+
 class CfgGlasses
 {
 	class None;

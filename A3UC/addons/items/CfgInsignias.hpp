@@ -1,27 +1,27 @@
-class insignia_AU_BLK
+class auc_insignia_ultimate_black
 {
     displayName = "Antistasi Ultimate (Black)";
-    author = "MaxxLite";
-    texture = QPATHTOFOLDER(Data\Icons\insignias\AU_BLK_INS.paa);
+    author = AUTHOR;
+    texture = QPATHTOFOLDER(data\icons\insignias\AU_BLK_INS.paa);
     textureVehicle = "";
 };
-class insignia_AU_YELLOW : insignia_AU_BLK
+class auc_insignia_ultimate_yellow : auc_insignia_ultimate_black
 {
     displayName = "Antistasi Ultimate (Yellow)";
-    texture = QPATHTOFOLDER(Data\Icons\insignias\AU_YELLOW_INS.paa);
+    texture = QPATHTOFOLDER(data\icons\insignias\AU_YELLOW_INS.paa);
 };
-class insignia_AU_WHT : insignia_AU_BLK
+class auc_insignia_ultimate_white : auc_insignia_ultimate_black
 {
     displayName = "Antistasi Ultimate (White)";
-    texture = QPATHTOFOLDER(Data\Icons\insignias\AU_WHT_INS.paa);
+    texture = QPATHTOFOLDER(data\icons\insignias\AU_WHT_INS.paa);
 };
-class insignia_AUC : insignia_AU_BLK
+class auc_insignia : auc_insignia_ultimate_black
 {
     displayName = "Antistasi Ultimate Community";
-    texture = QPATHTOFOLDER(Data\Icons\insignias\AUC_INS.paa);
+    texture = QPATHTOFOLDER(data\icons\insignias\AUC_INS.paa);
 };
-class insignia_AUC_gry : insignia_AU_BLK
+class auc_insignia_gray : auc_insignia_ultimate_black
 {
     displayName = "Antistasi Ultimate Community (Gray)";
-    texture = QPATHTOFOLDER(Data\Icons\insignias\AUC_GRY_INS.paa);
+    texture = QPATHTOFOLDER(data\icons\insignias\AUC_GRY_INS.paa);
 };
