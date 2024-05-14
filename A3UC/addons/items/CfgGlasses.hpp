@@ -18,7 +18,7 @@ class AUC_g_Combat_Black : G_Combat
 };
 
 //===================Masks===================
-class AUC_Tac_Bal_Skull: G_Balaclava_TI_blk_F
+class AUC_Tac_Bal_Skull : G_Balaclava_TI_blk_F
 {
     author = AUTHOR;
     scope=2;
@@ -39,7 +39,7 @@ class AUC_Tac_Bal_Skull: G_Balaclava_TI_blk_F
     mass=6;
     mode = 4;
 };
-class AUC_Tac_Bal_Skull_Goggles: AUC_Tac_Bal_Skull
+class AUC_Tac_Bal_Skull_Goggles : AUC_Tac_Bal_Skull
 {
     displayName="Stealth Balaclava (Skull, Goggles)";
     model="\A3\Characters_F_Exp\BLUFOR\G_Balaclava_TI_G_F.p3d";
@@ -57,7 +57,7 @@ class AUC_Tac_Bal_Skull_Goggles: AUC_Tac_Bal_Skull
     identityTypes[]={};
     mass=10;
 };
-class AUC_Tac_Bal_Snow: AUC_Tac_Bal_Skull
+class AUC_Tac_Bal_Snow : AUC_Tac_Bal_Skull
 {
     displayName="Stealth Balaclava (Snow)";
     picture = QPATHTOFOLDER(Data\Icons\Masks\I_Bal_W.paa);
@@ -66,7 +66,7 @@ class AUC_Tac_Bal_Snow: AUC_Tac_Bal_Skull
         QPATHTOFOLDER(Data\NetMask\Maxx_g_balaclava_ti_Snow.paa)
     };
 };
-class AUC_Tac_Bal_Snow_Goggles: AUC_Tac_Bal_Skull_Goggles
+class AUC_Tac_Bal_Snow_Goggles : AUC_Tac_Bal_Skull_Goggles
 {
     displayName="Stealth Balaclava (Snow, Goggles)";
     picture = QPATHTOFOLDER(Data\Icons\Masks\I_Bal_W.paa);
@@ -76,7 +76,7 @@ class AUC_Tac_Bal_Snow_Goggles: AUC_Tac_Bal_Skull_Goggles
         QPATHTOFOLDER(Data\NetMask\Maxx_g_combat_BLK.paa)
     };
 };
-class AUC_Tac_Bal_Festive: AUC_Tac_Bal_Skull
+class AUC_Tac_Bal_Festive : AUC_Tac_Bal_Skull
 {
     displayName="Stealth Balaclava (Festive)";
     picture = QPATHTOFOLDER(Data\Icons\Masks\I_Bal_Fes.paa);
@@ -85,7 +85,7 @@ class AUC_Tac_Bal_Festive: AUC_Tac_Bal_Skull
         QPATHTOFOLDER(Data\NetMask\Maxx_g_balaclava_ti_Festive.paa)
     };
 };
-class AUC_Tac_Bal_Festive_Goggles: AUC_Tac_Bal_Skull_Goggles
+class AUC_Tac_Bal_Festive_Goggles : AUC_Tac_Bal_Skull_Goggles
 {
     displayName="Stealth Balaclava (Festive, Goggles)";
     picture = QPATHTOFOLDER(Data\Icons\Masks\I_Bal_Fes.paa);
@@ -95,7 +95,7 @@ class AUC_Tac_Bal_Festive_Goggles: AUC_Tac_Bal_Skull_Goggles
         QPATHTOFOLDER(Data\NetMask\Maxx_g_combat_BLK.paa)
     };
 };
-class AUC_Tac_Bal_Woodland: AUC_Tac_Bal_Skull
+class AUC_Tac_Bal_Woodland : AUC_Tac_Bal_Skull
 {
     displayName="Stealth Balaclava (Woodland)";
     picture = QPATHTOFOLDER(Data\Icons\Masks\I_Bal_WD.paa);
@@ -104,7 +104,7 @@ class AUC_Tac_Bal_Woodland: AUC_Tac_Bal_Skull
         QPATHTOFOLDER(Data\NetMask\Maxx_g_balaclava_ti_Woodland.paa)
     };
 };
-class AUC_Tac_Bal_Woodland_Goggles: AUC_Tac_Bal_Skull_Goggles
+class AUC_Tac_Bal_Woodland_Goggles : AUC_Tac_Bal_Skull_Goggles
 {
     displayName="Stealth Balaclava (Woodland, Goggles)";
     picture = QPATHTOFOLDER(Data\Icons\Masks\I_Bal_WD.paa);
@@ -114,7 +114,7 @@ class AUC_Tac_Bal_Woodland_Goggles: AUC_Tac_Bal_Skull_Goggles
         QPATHTOFOLDER(Data\NetMask\Maxx_g_combat_BLK.paa)
     };
 };
-class AUC_Tac_Bal_MTP: AUC_Tac_Bal_Skull
+class AUC_Tac_Bal_MTP : AUC_Tac_Bal_Skull
 {
     displayName="Stealth Balaclava (MTP)";
     picture = QPATHTOFOLDER(Data\Icons\Masks\I_Bal_MTP.paa);
@@ -123,7 +123,7 @@ class AUC_Tac_Bal_MTP: AUC_Tac_Bal_Skull
         QPATHTOFOLDER(Data\NetMask\Maxx_g_balaclava_ti_MTP.paa)
     };
 };
-class AUC_Tac_Bal_MTP_Goggles: AUC_Tac_Bal_Skull_Goggles
+class AUC_Tac_Bal_MTP_Goggles : AUC_Tac_Bal_Skull_Goggles
 {
     displayName="Stealth Balaclava (MTP, Goggles)";
     picture = QPATHTOFOLDER(Data\Icons\Masks\I_Bal_MTP.paa);
@@ -133,7 +133,7 @@ class AUC_Tac_Bal_MTP_Goggles: AUC_Tac_Bal_Skull_Goggles
         QPATHTOFOLDER(Data\NetMask\Maxx_g_combat_BLK.paa)
     };
 };
-class AUC_Tac_Bal_BlackCamo: AUC_Tac_Bal_Skull
+class AUC_Tac_Bal_BlackCamo : AUC_Tac_Bal_Skull
 {
     displayName="Stealth Balaclava (Black Camo)";
     picture = QPATHTOFOLDER(Data\Icons\Masks\I_Bal_Blk.paa);
@@ -142,7 +142,7 @@ class AUC_Tac_Bal_BlackCamo: AUC_Tac_Bal_Skull
         QPATHTOFOLDER(Data\NetMask\Maxx_g_balaclava_ti_BlackCamo.paa)
     };
 };
-class AUC_Tac_Bal_BlackCamo_Goggles: AUC_Tac_Bal_Skull_Goggles
+class AUC_Tac_Bal_BlackCamo_Goggles : AUC_Tac_Bal_Skull_Goggles
 {
     displayName="Stealth Balaclava (Black Camo, Goggles)";
     picture = QPATHTOFOLDER(Data\Icons\Masks\I_Bal_Blk.paa);
@@ -154,7 +154,7 @@ class AUC_Tac_Bal_BlackCamo_Goggles: AUC_Tac_Bal_Skull_Goggles
 };
 
 //===================Costume Models===================
-class Maxx_Net_Mask_BASE: G_Diving
+class Maxx_Net_Mask_BASE : G_Diving
 {
     author = AUTHOR;
     scope=0;
@@ -205,7 +205,7 @@ class Maxx_Net_Mask_BASE: G_Diving
         0
     };
 };
-class Maxx_Net_Mask: Maxx_Net_Mask_BASE
+class Maxx_Net_Mask : Maxx_Net_Mask_BASE
 {
     scope=1;
     scopeCurator=1;
@@ -215,7 +215,7 @@ class Maxx_Net_Mask: Maxx_Net_Mask_BASE
     mass = 4;
     mode = 4;
 };
-class Maxx_Net_Mask_SnowCamo: Maxx_Net_Mask
+class Maxx_Net_Mask_SnowCamo : Maxx_Net_Mask
 {
     scope=1;
     scopeCurator=1;
@@ -223,43 +223,50 @@ class Maxx_Net_Mask_SnowCamo: Maxx_Net_Mask
     hiddenSelections[]={"camo"};
     hiddenSelectionsTextures[]={QPATHTOFOLDER(Data\NetMask\Maxx_Net_Mask_SnowCamo.paa)};
 };
-class Maxx_Net_Mask_Sand: Maxx_Net_Mask_SnowCamo
+class Maxx_Net_Mask_Sand : Maxx_Net_Mask_SnowCamo
 {
     displayName="Net Mask (Sand)";
     hiddenSelectionsTextures[]={QPATHTOFOLDER(Data\NetMask\Maxx_Net_Mask_Desert.paa)};
 };
-class Maxx_Net_Mask_Olive: Maxx_Net_Mask_SnowCamo
+class Maxx_Net_Mask_Olive : Maxx_Net_Mask_SnowCamo
 {
     displayName="Net Mask (Olive)";
     hiddenSelectionsTextures[]={QPATHTOFOLDER(Data\NetMask\Maxx_Net_Mask_Olive.paa)};
 };
-class Maxx_Net_Mask_MTP: Maxx_Net_Mask_SnowCamo
+class Maxx_Net_Mask_MTP : Maxx_Net_Mask_SnowCamo
 {
     displayName="Net Mask (MTP)";
     hiddenSelectionsTextures[]={QPATHTOFOLDER(Data\NetMask\Maxx_Net_Mask_MTP.paa)};
 };
-class Maxx_Net_Mask_BLKCamo: Maxx_Net_Mask_SnowCamo
+class Maxx_Net_Mask_BLKCamo : Maxx_Net_Mask_SnowCamo
 {
     displayName="Net Mask (Black Camo)";
     hiddenSelectionsTextures[]={QPATHTOFOLDER(Data\NetMask\Maxx_Net_Mask_BLKCamo.paa)};
 };
-class Maxx_Net_Mask_DesertCamo: Maxx_Net_Mask_SnowCamo
+class Maxx_Net_Mask_DesertCamo : Maxx_Net_Mask_SnowCamo
 {
     displayName="Net Mask (Desert Camo)";
     hiddenSelectionsTextures[]={QPATHTOFOLDER(Data\NetMask\Maxx_Net_Mask_DesertCamo.paa)};
 };
-class Maxx_Net_Mask_Woodland: Maxx_Net_Mask_SnowCamo
+class Maxx_Net_Mask_Woodland : Maxx_Net_Mask_SnowCamo
 {
     displayName="Net Mask (Woodland)";
     hiddenSelectionsTextures[]={QPATHTOFOLDER(Data\NetMask\Maxx_Net_Mask_Woodland.paa)};
 };
-class Maxx_Net_Mask_WhiteCamo: Maxx_Net_Mask_SnowCamo
+class Maxx_Net_Mask_WhiteCamo : Maxx_Net_Mask_SnowCamo
 {
     displayName="Net Mask (White Camo)";
     hiddenSelectionsTextures[]={QPATHTOFOLDER(Data\NetMask\Maxx_Net_Mask_WhiteCamo.paa)};
 };
-class Maxx_Net_Mask_Black: Maxx_Net_Mask_SnowCamo
+class Maxx_Net_Mask_Black : Maxx_Net_Mask_SnowCamo
 {
     displayName="Net Mask (Black)";
     hiddenSelectionsTextures[]={QPATHTOFOLDER(Data\NetMask\Maxx_Net_Mask_Black.paa)};
 };
+
+// TO-DO: Enforce a naming convention. E.g:
+// auc_tacbal_skull, auc_tacbal_festive
+// It's easier to read and is generally a better idea to make it all lowercase too, unless under certain circumstances (see below).
+
+// AUC_CategorySubcategory is acceptable. Example:
+// AUC_ActionsObject >> AUC_ActionsObjectInventory

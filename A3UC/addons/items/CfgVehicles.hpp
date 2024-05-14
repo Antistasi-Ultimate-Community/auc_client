@@ -7,7 +7,7 @@ class AU_Flag_AU : FlagPole_F
     displayName = "(AU) Flag (Antistasi Ultimate)";
     class EventHandlers 
     {
-        init = "(_this select 0) setFlagTexture 'QPATHTOFOLDER(Data\flag\flag_AU.paa)'";
+        init = "(_this select 0) setFlagTexture 'QPATHTOFOLDER(Data\flag\flag_AU.paa)'"; // does this actually work?
     };
 };
 
@@ -16,14 +16,14 @@ class AUC_Flag : AU_Flag_AU
     displayName = "(AU) Flag (Antistasi Ultimate)";
     class EventHandlers 
     {
-        init = "(_this select 0) setFlagTexture 'QPATHTOFOLDER(Data\flag\flag_AUC.paa)'";
+        init = "(_this select 0) setFlagTexture 'QPATHTOFOLDER(Data\flag\flag_AUC.paa)'"; // does this actually work?
     };
 };
 
 //===================Uniforms===================
 class B_Soldier_F;
 class B_CTRG_Soldier_base_F;
-class AUC_BLK_Uni_F: B_CTRG_Soldier_base_F
+class AUC_BLK_Uni_F : B_CTRG_Soldier_base_F
 {
     author = AUTHOR;
     side = -1;
@@ -41,7 +41,7 @@ class AUC_BLK_Uni_F: B_CTRG_Soldier_base_F
     armorStructural=3;
     explosionShielding=0.30000001;
 };
-class AUC_BLK_Uni_2_F: AUC_BLK_Uni_F
+class AUC_BLK_Uni_2_F : AUC_BLK_Uni_F
 {
     _generalMacro="AUC_BLK_Uni_2_F";
     uniformClass="U_AUC_BLK_Uni_2_F";
@@ -57,13 +57,13 @@ class AUC_BLK_Uni_2_F: AUC_BLK_Uni_F
         "\A3\Characters_F_Exp\BLUFOR\Data\U_BT_Soldier_AR_F_tna_01_co.paa"
     };
 };
-class AUC_BLK_Uni_3_F: AUC_BLK_Uni_F
+class AUC_BLK_Uni_3_F : AUC_BLK_Uni_F
 {
     _generalMacro="AUC_BLK_Uni_3_F";
     uniformClass="U_AUC_BLK_Uni_3_F";
     model="\A3\Characters_F_Exp\BLUFOR\B_CTRG_Soldier_03_F.p3d";
 };
-class AUC_Olive_Uni_F: AUC_BLK_Uni_F
+class AUC_Olive_Uni_F : AUC_BLK_Uni_F
 {
     _generalMacro="AUC_Olive_Uni_F";
     uniformClass="U_AUC_Olive_Uni_F";
@@ -72,13 +72,13 @@ class AUC_Olive_Uni_F: AUC_BLK_Uni_F
         QPATHTOFOLDER(Data\Clothing\AUC_Uni_Olive.paa)
     };
 };
-class AUC_Olive_Uni_3_F: AUC_Olive_Uni_F
+class AUC_Olive_Uni_3_F : AUC_Olive_Uni_F
 {
     _generalMacro="AUC_Olive_Uni_3_F";
     uniformClass="U_AUC_Olive_Uni_3_F";
     model="\A3\Characters_F_Exp\BLUFOR\B_CTRG_Soldier_03_F.p3d";
 };
-class AUC_Arid_Uni_F: AUC_BLK_Uni_F
+class AUC_Arid_Uni_F : AUC_BLK_Uni_F
 {
     _generalMacro="AUC_Arid_Uni_F";
     uniformClass="U_AUC_Arid_Uni_F";
@@ -87,13 +87,13 @@ class AUC_Arid_Uni_F: AUC_BLK_Uni_F
         QPATHTOFOLDER(Data\Clothing\AUC_Uni_Arid.paa)
     };
 };
-class AUC_Arid_Uni_3_F: AUC_Arid_Uni_F
+class AUC_Arid_Uni_3_F : AUC_Arid_Uni_F
 {
     _generalMacro="AUC_Arid_Uni_3_F";
     uniformClass="U_AUC_Arid_Uni_3_F";
     model="\A3\Characters_F_Exp\BLUFOR\B_CTRG_Soldier_03_F.p3d";
 };
-class AUC_Plad_Uni_F: AUC_BLK_Uni_F
+class AUC_Plad_Uni_F : AUC_BLK_Uni_F
 {
     _generalMacro="AUC_Plad_Uni_F";
     uniformClass="U_AUC_Plad_Uni_F";
@@ -102,14 +102,14 @@ class AUC_Plad_Uni_F: AUC_BLK_Uni_F
         QPATHTOFOLDER(Data\Clothing\AUC_Uni_Plad.paa)
     };
 };
-class AUC_Plad_Uni_3_F: AUC_Plad_Uni_F
+class AUC_Plad_Uni_3_F : AUC_Plad_Uni_F
 {
     _generalMacro="AUC_Plad_Uni_3_F";
     uniformClass="U_AUC_Plad_Uni_3_F";
     model="\A3\Characters_F_Exp\BLUFOR\B_CTRG_Soldier_03_F.p3d";
 };
 class I_C_Soldier_Bandit_3_F;
-class AUC_Civ_1: I_C_Soldier_Bandit_3_F
+class AUC_Civ_1 : I_C_Soldier_Bandit_3_F
 {
     _generalMacro="AUC_Civ_1";
     scope=1;
@@ -121,7 +121,7 @@ class AUC_Civ_1: I_C_Soldier_Bandit_3_F
         QPATHTOFOLDER(Data\Clothing\AUC_Civ_1_Jeans_Blue.paa)
     };
 };
-class AUC_Civ_2: AUC_Civ_1
+class AUC_Civ_2 : AUC_Civ_1
 {
     _generalMacro="AUC_Civ_2";
     uniformClass="U_AUC_Civ_2";
@@ -132,7 +132,7 @@ class AUC_Civ_2: AUC_Civ_1
         QPATHTOFOLDER(Data\Clothing\AUC_Civ_1_Jeans_Designer.paa)
     };
 };
-class AUC_Civ_3: AUC_Civ_1
+class AUC_Civ_3 : AUC_Civ_1
 {
     _generalMacro="AUC_Civ_3";
     uniformClass="U_AUC_Civ_3";
@@ -143,7 +143,7 @@ class AUC_Civ_3: AUC_Civ_1
         QPATHTOFOLDER(Data\Clothing\AUC_Civ_1_Jeans_Black.paa)
     };
 };
-class AUC_Civ_4: AUC_Civ_1
+class AUC_Civ_4 : AUC_Civ_1
 {
     _generalMacro="AUC_Civ_4";
     uniformClass="U_AUC_Civ_4";
@@ -154,7 +154,7 @@ class AUC_Civ_4: AUC_Civ_1
         QPATHTOFOLDER(Data\Clothing\AUC_Civ_1_Jeans_Blue.paa)
     };
 };
-class AUC_Civ_5: AUC_Civ_1
+class AUC_Civ_5 : AUC_Civ_1
 {
     _generalMacro="AUC_Civ_5";
     uniformClass="U_AUC_Civ_5";
@@ -165,7 +165,7 @@ class AUC_Civ_5: AUC_Civ_1
         QPATHTOFOLDER(Data\Clothing\AUC_Civ_1_Jeans_Blue.paa)
     };
 };
-class AUC_Civ_6: AUC_Civ_1
+class AUC_Civ_6 : AUC_Civ_1
 {
     _generalMacro="AUC_Civ_6";
     uniformClass="U_AUC_Civ_6";
@@ -176,7 +176,7 @@ class AUC_Civ_6: AUC_Civ_1
         QPATHTOFOLDER(Data\Clothing\AUC_Civ_1_Jeans_Blue.paa)
     };
 };
-class AUC_Civ_7: AUC_Civ_1
+class AUC_Civ_7 : AUC_Civ_1
 {
     _generalMacro="AUC_Civ_7";
     uniformClass="U_AUC_Civ_7";
@@ -187,7 +187,7 @@ class AUC_Civ_7: AUC_Civ_1
         QPATHTOFOLDER(Data\Clothing\AUC_Civ_1_Jeans_Blue.paa)
     };
 };
-class AUC_Civ_8: AUC_Civ_1
+class AUC_Civ_8 : AUC_Civ_1
 {
     _generalMacro="AUC_Civ_8";
     uniformClass="U_AUC_Civ_8";
@@ -198,7 +198,7 @@ class AUC_Civ_8: AUC_Civ_1
         QPATHTOFOLDER(Data\Clothing\AUC_Civ_1_Jeans_Black.paa)
     };
 };
-class AUC_Civ_9: AUC_Civ_1
+class AUC_Civ_9 : AUC_Civ_1
 {
     _generalMacro="AUC_Civ_9";
     uniformClass="U_AUC_Civ_9";
@@ -209,7 +209,7 @@ class AUC_Civ_9: AUC_Civ_1
         QPATHTOFOLDER(Data\Clothing\AUC_Civ_1_Jeans_Black.paa)
     };
 };
-class AUC_Civ_10: AUC_Civ_1
+class AUC_Civ_10 : AUC_Civ_1
 {
     _generalMacro="AUC_Civ_10";
     uniformClass="U_AUC_Civ_10";
@@ -220,7 +220,7 @@ class AUC_Civ_10: AUC_Civ_1
         QPATHTOFOLDER(Data\Clothing\AUC_Civ_1_Jeans_Black.paa)
     };
 };
-class AUC_Civ_11: AUC_Civ_1
+class AUC_Civ_11 : AUC_Civ_1
 {
     _generalMacro="AUC_Civ_11";
     uniformClass="U_AUC_Civ_11";
@@ -231,7 +231,7 @@ class AUC_Civ_11: AUC_Civ_1
         QPATHTOFOLDER(Data\Clothing\AUC_Civ_1_Jeans_Black.paa)
     };
 };
-class AUC_Civ_12: AUC_Civ_1
+class AUC_Civ_12 : AUC_Civ_1
 {
     _generalMacro="AUC_Civ_12";
     uniformClass="U_AUC_Civ_12";
@@ -243,7 +243,7 @@ class AUC_Civ_12: AUC_Civ_1
     };
 };
 class C_Nikos;
-class C_Maxx: C_Nikos
+class C_Maxx : C_Nikos
 {
     editorPreview="\A3\EditorPreviews_F\Data\CfgVehicles\C_Nikos.jpg";
     _generalMacro="C_Maxx";
@@ -252,3 +252,10 @@ class C_Maxx: C_Nikos
     hiddenSelectionsTextures[]={QPATHTOFOLDER(Data\Clothing\AUC_Dealer.paa)};
     uniformClass="U_MaxxBody";
 };
+
+// TO-DO: Enforce a naming convention. E.g:
+// auc_tacbal_skull, auc_tacbal_festive
+// It's easier to read and is generally a better idea to make it all lowercase too, unless under certain circumstances (see below).
+
+// AUC_CategorySubcategory is acceptable. Example:
+// AUC_ActionsObject >> AUC_ActionsObjectInventory
