@@ -1,3 +1,20 @@
+/*
+    Author:
+        Silence
+    
+    Description:
+        Initialises variables for the A3UC space
+    
+    Params:
+        N/A
+    
+    Usage:
+        call A3UC_fnc_initVars;
+    
+    Return:
+        N/A
+*/
+
 ["Initialising variables.", _fnc_scriptName] call A3UC_fnc_log;
 
 A3UC_forbiddenMods = [ // list of CfgPatches names to block

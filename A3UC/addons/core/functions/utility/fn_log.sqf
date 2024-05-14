@@ -1,3 +1,22 @@
+/*
+    Author:
+        Silence
+    
+    Description:
+        Logs a message to either client or server
+    
+    Params:
+        _message <STRING>
+        _file    <STRING> <DEFAULT: _fnc_scriptName>
+        _target  <STRING> <DEFAULT: "local">
+    
+    Usage:
+        ["This is a log message."] call A3UC_fnc_log;
+    
+    Return:
+        N/A
+*/
+
 params [
     "_message", 
     ["_file", _fnc_scriptName],
