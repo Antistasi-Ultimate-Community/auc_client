@@ -30,7 +30,7 @@ params ["_unit"];
         ],
         ["EDIT", "Log Note"]
     ],
-    {[(_this select 0) select 0, (_this select 0) select 1] remoteExec ["AUC_fnc_kickPlayer", (_this select 1) select 0]},
+    {[((_this select 0) select 0), ((_this select 1) select 0), ((_this select 0) select 1)] remoteExec ["AUC_fnc_kickPlayer", (_this select 1) select 0]},
     {},
     [_unit]
 ] call zen_dialog_fnc_create;

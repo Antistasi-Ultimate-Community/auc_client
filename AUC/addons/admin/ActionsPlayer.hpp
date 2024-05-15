@@ -14,3 +14,11 @@
         icon = ICON_PLAYER;
         priority = 2;
     };
+    class AUC_ForceCommander
+    {
+        displayName = "Set As Commander";
+        condition = "alive _hoveredEntity";
+        statement = "[_hoveredEntity] call AUC_fnc_forceCommander";
+        icon = ICON_PLAYER;
+        priority = 3;
+    };

@@ -5,6 +5,7 @@ class CfgFunctions
         class validate 
         {
             file = QPATHTOFOLDER(functions\validate);
+            class message {};
             class validateLoadedMods {};
         };
     };

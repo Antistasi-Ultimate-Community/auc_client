@@ -11,12 +11,6 @@ class CfgFunctions
             class initPre {preInit = 1};
             class initVars {};
         };
-        class member 
-        {
-            file = QPATHTOFOLDER(functions\member);
-            class addMember {};
-            class canAddMember {};
-        };
         class utility 
         {
             file = QPATHTOFOLDER(functions\utility);

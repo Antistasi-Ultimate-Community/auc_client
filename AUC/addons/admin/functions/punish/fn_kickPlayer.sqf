@@ -7,7 +7,8 @@
     
     Params:
         _reason  <STRING>
-        _message <STRING> <DEFAULT: "N/A">
+        _target  <OBJECT> <DEFAULT: ObjNull>
+        _message <STRING> <DEFAULT: "">
     
     Usage:
         ["forbidden_mods", "Player loaded forbidden mods."] call AUC_fnc_kickPlayer;
@@ -18,9 +19,15 @@
 
 params [
     "_reason",
-    ["_message", "N/A"]
+    ["_target", ObjNull],
+    ["_message", ""]
 ];
 
-[(format["Kicking %3. Reason: %1. Note: %2", _reason, _message, (name player)]), _fnc_scriptName, "server"] call AUC_fnc_log;
+if (_target isEqualTo ObjNull) exitWith {false};
 
-[_reason, false, 1, false, false] call BIS_fnc_endMission;
+[(format["Kicking %3. Reason: %1. Note: %2", _reason, _message, (name _target)]), _fnc_scriptName, "server"] call AUC_fnc_log;
+
+// [_reason, false, 1, false, false] call BIS_fnc_endMission;
+[_reason, false, 1, false, false] remoteExecCall ["BIS_fnc_endMission", _target];
+
+true;
