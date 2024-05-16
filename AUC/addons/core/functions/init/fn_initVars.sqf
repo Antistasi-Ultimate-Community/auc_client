@@ -21,7 +21,9 @@ AUC_forbiddenMods = [ // list of CfgPatches names to block
     "nks_arsenal", //Nks Arsenal (Personal ACE + Virtual arsenals)
     "DCONVirtualGarage", //DCON's Multiplayer Vehicle Spawner
     "LootToVehicle", //Loot to vehicle
-    "bear_antistasi_looter" //Loot to Vehicle for ACE and Antistasi
+    "bear_antistasi_looter", //Loot to Vehicle for ACE and Antistasi
+    "FastBandages", //Fast bandage ACE mods
+    "PA_arsenal" //Yet another personal arsenal mod
 ];
 
 // Perhaps we should retrieve this variable from the server addon to try and maintain data security? 
