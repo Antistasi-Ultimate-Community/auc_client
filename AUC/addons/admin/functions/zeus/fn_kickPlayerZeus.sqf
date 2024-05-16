@@ -23,14 +23,14 @@ params ["_unit"];
         [
             "COMBO","Kick Reason",
             [
-                ["kick_generic", "kick_forbidden_mods"],
-                ["Generic", "Forbidden Mods"],
-                0
+                ["end1", "kick_generic", "kick_forbidden_mods"],
+                ["DEBUG: Use if others fail.", "Generic", "Forbidden Mods"],
+                1
             ]
         ],
         ["EDIT", "Log Note"]
     ],
-    {[((_this select 0) select 0), ((_this select 1) select 0), ((_this select 0) select 1)] remoteExec ["AUC_fnc_kickPlayer", (_this select 1) select 0]},
+    {[((_this select 0) select 0), ((_this select 1) select 0), ((_this select 0) select 1)] call AUC_fnc_kickPlayer},
     {},
     [_unit]
 ] call zen_dialog_fnc_create;
