@@ -1,3 +1,11 @@
+    class AUC_AddLoadAction
+    {
+        displayName = "Add Cargo Load Action";
+        condition = "[_hoveredEntity] call AUC_fnc_hasInventory";
+        statement = "[_hoveredEntity] call A3A_Logistics_fnc_addLoadAction";
+        icon = ICON_OBJECT;
+        priority = 2;
+    };
     class AUC_LoadCargo
     {
         displayName = "Load Into Vehicle";
