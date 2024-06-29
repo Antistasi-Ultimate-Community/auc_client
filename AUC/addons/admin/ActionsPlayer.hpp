@@ -2,7 +2,7 @@
     {
         displayName = "Kick Player To Lobby";
         condition = "[_hoveredEntity] call AUC_fnc_canKickPlayer";
-        statement = "[_hoveredEntity] call AUC_fnc_kickPlayerZeus";
+        statement = "[_hoveredEntity] remoteExec [""AUC_server_fnc_kickPlayerZeus"", 2]";
         icon = ICON_PLAYER;
         priority = 1;
     };
@@ -10,7 +10,7 @@
     {
         displayName = "Add Player To Member";
         condition = "[_hoveredEntity] call AUC_fnc_canAddMember";
-        statement = "[_hoveredEntity] call AUC_fnc_addMember";
+        statement = "[_hoveredEntity] remoteExec [""AUC_server_fnc_addMember"", 2]";
         icon = ICON_PLAYER;
         priority = 2;
     };
@@ -18,7 +18,7 @@
     {
         displayName = "Set As Commander";
         condition = "alive _hoveredEntity";
-        statement = "[_hoveredEntity] call AUC_fnc_forceCommander";
+        statement = "[_hoveredEntity] remoteExec [""AUC_server_fnc_forceCommander"", 2]";
         icon = ICON_PLAYER;
         priority = 3;
     };
