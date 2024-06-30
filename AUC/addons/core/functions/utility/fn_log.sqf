@@ -3,7 +3,7 @@
         Silence
     
     Description:
-        Logs a message to either client or server
+        Logs a message to server
     
     Params:
         _message <STRING>
@@ -20,14 +20,11 @@
 params [
     "_message", 
     ["_file", _fnc_scriptName],
-    ["_target", "local"]
+    ["_target", "server"]
 ];
 
-if (_target isEqualTo "server" && {!(isServer)}) exitWith {
-    diag_log (format["%1 was called with server flag, redirecting to server.", _file]);
-    [_message, _file, "server"] remoteExec ["AUC_fnc_log", 2];
+if (_target isEqualTo "server") then {
+    [_message, _file] remoteExec ["AUC_server_fnc_log", 2];
+} else {
+    diag_log (" | AUC Client Addon" + " | File: " + _file + " | " + _message + " | ");
 };
-
-diag_log (" | AUC Client" + " | File: " + _file + " | " + _message + " | ")
-
-//| AUC Client | File: _file | _message |

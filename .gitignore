@@ -2,5 +2,6 @@
 *.vscode
 *.xcf
 *.png
+*.biprivatekey
 build
 release

@@ -5,12 +5,12 @@ class CfgFunctions
         class member 
         {
             file = QPATHTOFOLDER(functions\member);
-            class addMember {};
+            class canAddMember {};
         };
         class punish
         {
             file = QPATHTOFOLDER(functions\punish);
-            class kickPlayer {};
+            class canKickPlayer {};
         };
         class zeus
         {
@@ -18,7 +18,6 @@ class CfgFunctions
             class canLoadCargo {};
             class canUnloadCargo {};
             class customHintDialog {};
-            class forceCommander {};
             class kickPlayerZeus {};
             class loadCargo {};
             class tryLoadCargo {};

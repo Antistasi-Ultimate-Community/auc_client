@@ -15,12 +15,12 @@ class CfgFunctions
         {
             file = QPATHTOFOLDER(functions\utility);
             class hasInventory {};
+            class isAntistasi {};
             class isObject {};
             class isPlayer {};
             class isStatic {};
             class isVehicle {};
             class log {};
-            class isAntistasi {};
         };
     };
 };
