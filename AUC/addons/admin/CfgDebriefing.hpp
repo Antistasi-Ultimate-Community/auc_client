@@ -15,4 +15,10 @@ class CfgDebriefing
         subtitle = "CHEATER ALERT!";
         title = "CHEATER ALERT!";
     };
+    class kick_update : kick_generic
+    {
+        description = "Your version does not match the server version. Try repairing the AUC Client Mod in your launcher. Should issues persist, contact us on discord.gg/antistasiultimate";
+        subtitle = "VERSION MISMATCH.";
+        title = "VERSION MISMATCH.";
+    };
 };
