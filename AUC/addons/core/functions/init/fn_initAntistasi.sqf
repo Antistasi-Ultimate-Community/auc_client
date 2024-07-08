@@ -21,4 +21,5 @@ waitUntil {sleep 1; !(isNil "initClientDone")}; // wait until antistasi has done
 
 ["Antistasi client init has finished.", _fnc_scriptName] call AUC_fnc_log;
 
-[] call AUC_fnc_validateLoadedMods;
+call AUC_fnc_validateLoadedMods;
+call AUC_fnc_validateVersion;

@@ -22,5 +22,7 @@ if (_continue isEqualTo false) exitWith {
 };
 
 [] spawn AUC_fnc_initAntistasi;
+
+call AUC_fnc_version;
  
 ["postInit complete.", _fnc_scriptName] call AUC_fnc_log;

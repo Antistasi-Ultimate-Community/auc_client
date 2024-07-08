@@ -16,5 +16,3 @@
 */
 
 ["Initialising variables.", _fnc_scriptName] call AUC_fnc_log;
-
-// AUC_forbiddenMods variable should be getting set by the server client now, so not needed here
