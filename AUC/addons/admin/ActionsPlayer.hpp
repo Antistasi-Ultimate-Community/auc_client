@@ -2,7 +2,7 @@
     {
         displayName = "Kick Player To Lobby";
         condition = "[_hoveredEntity] call AUC_fnc_canKickPlayer";
-        statement = "[_hoveredEntity] call AUC_server_fnc_kickPlayerZeus";
+        statement = "[_hoveredEntity] call AUC_fnc_kickPlayerZeus";
         icon = ICON_PLAYER;
         priority = 1;
     };
