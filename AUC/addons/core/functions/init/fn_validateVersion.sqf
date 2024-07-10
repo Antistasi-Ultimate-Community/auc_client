@@ -16,5 +16,3 @@ if (AUC_clientVersion != AUC_serverVersion || {AUC_serverVersion isEqualTo "none
 
 player setVariable ["auc_client_version", AUC_clientVersion, true];
 player setVariable ["auc_server_version", AUC_serverVersion, true];
-
-// publicVariableServer format["auc_client_version_%1", getPlayerUID player];
