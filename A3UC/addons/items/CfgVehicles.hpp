@@ -358,6 +358,31 @@ class AUC_Civ_12 : AUC_Civ_1
     };
 };
 
+class B_Kitbag_Base;
+class AUC_Kitbag_Hawaiian_Red: B_Kitbag_Base {
+    scope = 2;
+    maximumLoad = 300;
+    displayName = "Kitbag (Hawaiian)(Red)";
+    picture=QPATHTOFOLDER(Data\Icons\insignias\AU_BLK_INS.paa);
+    hiddenSelectionsTextures[] = {QPATHTOFOLDER(Data\Clothing\AUC_B_Hawaiian_Red.paa)};
+};
+class AUC_Kitbag_Hawaiian_Blue: AUC_Kitbag_Hawaiian_Red {
+    displayName = "Kitbag (Hawaiian)(Blue)";
+    hiddenSelectionsTextures[] = {QPATHTOFOLDER(Data\Clothing\AUC_B_Hawaiian_Blue.paa)};
+};
+class AUC_Kitbag_Hawaiian_Green: AUC_Kitbag_Hawaiian_Red {
+    displayName = "Kitbag (Hawaiian)(Green)";
+    hiddenSelectionsTextures[] = {QPATHTOFOLDER(Data\Clothing\AUC_B_Hawaiian_Green.paa)};
+};
+class B_Competitor_F;
+class AUC_Tony_F: B_Competitor_F
+{
+    scope=1;
+    editorPreview="\A3\EditorPreviews_F\Data\CfgVehicles\B_Competitor_F.jpg";
+    _generalMacro="AUC_Tony_F";
+    uniformClass="AUC_Tony";
+    hiddenSelectionsTextures[]={QPATHTOFOLDER(Data\Clothing\AUC_Tony_co.paa)};
+};
 // TO-DO: Enforce a naming convention. E.g:
 // auc_tacbal_skull, auc_tacbal_festive
 // It's easier to read and is generally a better idea to make it all lowercase too, unless under certain circumstances (see below).

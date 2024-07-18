@@ -640,3 +640,19 @@ class AUC_Colt_Red : AUC_Colt_Silver
     displayname="Colt-1911 (Red)";
     hiddenSelectionsTextures[]={QPATHTOFOLDER(Data\Weapons\AUC_Colt_1911_Red.paa)};
 };
+class U_Tony: Uniform_Base
+{
+    scope=2;
+    displayName="Casual Wear (Tony)";
+    picture="\A3\characters_f\data\ui\icon_U_BasicBody_ca.paa";
+    model="\A3\Characters_F\Common\Suitpacks\suitpack_original_F.p3d";
+    hiddenSelections[]={"camo"};
+    hiddenSelectionsTextures[]={QPATHTOFOLDER(Data\Clothing\AUC_Tony_co.paa)};
+    class ItemInfo: UniformItem
+    {
+        uniformModel="-";
+        uniformClass="AUC_Tony_F";
+        containerClass="Supply30";
+        mass=30;
+    };
+};
