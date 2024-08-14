@@ -601,10 +601,10 @@ class U_AUC_Civ_12 : U_AUC_Civ_1
     };
 };
 class hgun_Pistol_heavy_01_F;
-class UAC_Pistol_45: hgun_Pistol_heavy_01_F
+class AUC_Pistol_45: hgun_Pistol_heavy_01_F
 {
-    _generalMacro="UAC_Pistol_45";
-    baseWeapon="UAC_Pistol_45";
+    _generalMacro="AUC_Pistol_45";
+    baseWeapon="AUC_Pistol_45";
     scope=2;
     displayname="FNX-45 Phoenix";
     magazines[]=
