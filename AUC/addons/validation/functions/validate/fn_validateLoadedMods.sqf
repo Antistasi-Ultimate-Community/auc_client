@@ -19,6 +19,9 @@ params [
     ["_forbiddenMods", AUC_forbiddenMods]
 ];
 
+// If they're local hosting or in SP, don't run validation checks
+if (isServer && {hasInterface} || {!(isMultiplayer)}) exitWith {false};
+
 ["Validating loaded mods.", _fnc_scriptName] call AUC_fnc_log;
 
 private _shouldKick = false;

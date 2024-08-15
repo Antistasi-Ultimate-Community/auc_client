@@ -1,3 +1,6 @@
+// If they're local hosting or in SP, don't run validation checks
+if (isServer && {hasInterface} || {!(isMultiplayer)}) exitWith {true};
+
 if (isNil "AUC_serverVersion") then {AUC_serverVersion = "none"};
 
 if (AUC_clientVersion != AUC_serverVersion || {AUC_serverVersion isEqualTo "none"}) then {
