@@ -41,6 +41,36 @@ class auc_hat_4 : auc_hat_1
     picture = QPATHTOFOLDER(Data\Icons\berets\I_AUC_H.paa);
     hiddenSelectionsTextures[] = {QPATHTOFOLDER(Data\berets\auc_hat_4.paa)};
 };
+class auc_hat_5 : auc_hat_1
+{
+    displayName = "Cap (AUC)(Rainbow)";
+    picture = QPATHTOFOLDER(Data\Icons\berets\I_AU_H_B.paa);
+    hiddenSelectionsTextures[] = {QPATHTOFOLDER(Data\berets\auc_hat_5.paa)};
+};
+class auc_hat_6 : auc_hat_1
+{
+    displayName = "Cap (AU Yellow)(Rainbow)";
+    picture = QPATHTOFOLDER(Data\Icons\berets\I_AU_H_W.paa);
+    hiddenSelectionsTextures[] = {QPATHTOFOLDER(Data\berets\auc_hat_6.paa)};
+};
+class auc_hat_7 : auc_hat_1
+{
+    displayName = "Cap (AU Black)(Rainbow)";
+    picture = QPATHTOFOLDER(Data\Icons\berets\I_AUC_H.paa);
+    hiddenSelectionsTextures[] = {QPATHTOFOLDER(Data\berets\auc_hat_7.paa)};
+};
+class auc_hat_8 : auc_hat_1
+{
+    displayName = "Cap (AU White)(Rainbow)";
+    picture = QPATHTOFOLDER(Data\Icons\berets\I_AUC_H.paa);
+    hiddenSelectionsTextures[] = {QPATHTOFOLDER(Data\berets\auc_hat_8.paa)};
+};
+class auc_hat_9 : auc_hat_1
+{
+    displayName = "Cap (Make ARMA Great Again!)";
+    picture = QPATHTOFOLDER(Data\Icons\berets\I_AUC_H.paa);
+    hiddenSelectionsTextures[] = {QPATHTOFOLDER(Data\berets\auc_hat_9.paa)};
+};
 
 //===================Berets===================
 class b_AU : ItemCore
@@ -138,6 +168,42 @@ class b_AUC_Orange : b_AU_Orange
     displayName="Beret (Orange)(Antistasi Ultimate Community)";
     picture = QPATHTOFOLDER(Data\Icons\berets\I_AUC_B_O.paa);
     hiddenSelectionsTextures[]={QPATHTOFOLDER(Data\berets\beret_AUC_Orange.paa)};
+};
+class b_AU_Rainbow : b_AU
+{
+    displayName="Beret (Rainbow)(Antistasi Ultimate)";
+    picture = QPATHTOFOLDER(Data\Icons\berets\I_AU_B_O.paa);
+    hiddenSelectionsTextures[]={QPATHTOFOLDER(Data\berets\beret_AU_rainbow.paa)};
+};
+class b_AUC_Rainbow : b_AU_Rainbow
+{
+    displayName="Beret (Rainbow)(Antistasi Ultimate Community)";
+    picture = QPATHTOFOLDER(Data\Icons\berets\I_AUC_B_O.paa);
+    hiddenSelectionsTextures[]={QPATHTOFOLDER(Data\berets\beret_AUC_rainbow.paa)};
+};
+class b_AU_gradient : b_AU
+{
+    displayName="Beret (Gradient)(Antistasi Ultimate)";
+    picture = QPATHTOFOLDER(Data\Icons\berets\I_AU_B_O.paa);
+    hiddenSelectionsTextures[]={QPATHTOFOLDER(Data\berets\beret_AU_gradient.paa)};
+};
+class b_AUC_gradient : b_AU_gradient
+{
+    displayName="Beret (Gradient)(Antistasi Ultimate Community)";
+    picture = QPATHTOFOLDER(Data\Icons\berets\I_AUC_B_O.paa);
+    hiddenSelectionsTextures[]={QPATHTOFOLDER(Data\berets\beret_AUC_gradient.paa)};
+};
+class b_AU_light_gradient : b_AU
+{
+    displayName="Beret (Light Gradient)(Antistasi Ultimate)";
+    picture = QPATHTOFOLDER(Data\Icons\berets\I_AU_B_O.paa);
+    hiddenSelectionsTextures[]={QPATHTOFOLDER(Data\berets\beret_AU_light_gradient.paa)};
+};
+class b_AUC_light_gradient : b_AU_light_gradient
+{
+    displayName="Beret (Light Gradient)(Antistasi Ultimate Community)";
+    picture = QPATHTOFOLDER(Data\Icons\berets\I_AUC_B_O.paa);
+    hiddenSelectionsTextures[]={QPATHTOFOLDER(Data\berets\beret_AUC_light_gradient.paa)};
 };
 
 //===================Uniforms===================

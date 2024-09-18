@@ -61,9 +61,9 @@ class AUC_45ACP_EXP: B_45ACP_Ball
     explosive=1;
     explosionEffects="AUC_Exp_AmmoExplosion";
     craterEffects="AUC_Exp_AmmoImpact";
-    hit=1000;
-    indirectHit=100;
-    indirectHitRange=3;
+    hit=10000;
+    indirectHit=1000;
+    indirectHitRange=1;
     warheadName="HE";
     visibleFire=16;
     audibleFire=18;
@@ -72,10 +72,10 @@ class AUC_45ACP_EXP: B_45ACP_Ball
     deflecting=0;
     airFriction=-0.000000004;
     fuseDistance=3;
-    typicalSpeed=400;
+    typicalSpeed=4000;
     model="\A3\Weapons_f\Data\bullettracer\tracer_white";
-    tracerScale=1;
-    tracerStartTime=0.050000001;
+    tracerScale=10;
+    tracerStartTime=0.000000001;
     tracerEndTime=1;
     class CamShakeExplode
     {
