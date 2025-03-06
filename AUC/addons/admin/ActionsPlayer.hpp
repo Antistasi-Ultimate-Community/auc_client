@@ -10,7 +10,7 @@
     {
         displayName = "Add Player To Member";
         condition = "[_hoveredEntity] call AUC_fnc_canAddMember";
-        statement = "[_hoveredEntity] remoteExec [""AUC_server_fnc_addMember"", 2]";
+        statement = "[_hoveredEntity] remoteExecCall [""AUC_server_fnc_addMember"", 2]";
         icon = ICON_PLAYER;
         priority = 2;
     };

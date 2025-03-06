@@ -19,6 +19,13 @@
 
 waitUntil {sleep 1; !(isNil "initClientDone")}; // wait until antistasi has done client init
 
-["Antistasi client init has finished.", _fnc_scriptName] call AUC_fnc_log;
+private _unit = player;
+private _uid = getPlayerUID _unit;
+
+if (_uid in AUC_allowedMembers) then { // ideally this should be running on the server but quite frankly I don't want to endure that pain
+    [_unit] remoteExecCall ["AUC_server_fnc_addMember", 2]
+};
 
 call AUC_fnc_validateLoadedMods;
+
+["Antistasi client init has finished.", _fnc_scriptName] call AUC_fnc_log;
