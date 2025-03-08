@@ -22,6 +22,10 @@ waitUntil {sleep 1; !(isNil "initClientDone")}; // wait until antistasi has done
 private _unit = player;
 private _uid = getPlayerUID _unit;
 
+if (isNil "AUC_allowedMembers") exitWith {
+    ["Auto Member", "The AUC addon is not loaded on the server.<br/><br/>Please let an admin know!"]
+};
+
 if (_uid in AUC_allowedMembers) then { // ideally this should be running on the server but quite frankly I don't want to endure that pain
     [_unit] remoteExecCall ["AUC_server_fnc_addMember", 2]
 };

@@ -24,7 +24,7 @@ params [
 ];
 
 if (_target isEqualTo "server") then {
-    [_message, _file] remoteExec ["AUC_server_fnc_log", 2];
+    [_message, _file] remoteExecCall ["AUC_server_fnc_log", 2];
 } else {
     diag_log (" | AUC Client Addon" + " | File: " + _file + " | " + _message + " | ");
 };
