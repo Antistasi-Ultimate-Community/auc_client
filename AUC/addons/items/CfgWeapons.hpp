@@ -666,23 +666,23 @@ class U_AUC_Civ_12 : U_AUC_Civ_1
         mass=30;
     };
 };
-class hgun_Pistol_heavy_01_F;
-class AUC_Pistol_45: hgun_Pistol_heavy_01_F
-{
-    _generalMacro="AUC_Pistol_45";
-    baseWeapon="AUC_Pistol_45";
-    scope=2;
-    displayname="FNX-45 Phoenix";
-    magazines[]=
-    {
-        "5Rnd_45ACP_EXP_Mag"
-    };
-    magazineWell[]=
-    {
-        "PistolHeavy_01_45ACP"
-    };
-    hiddenSelectionsTextures[]={QPATHTOFOLDER(Data\Weapons\AUC_Pistol_45.paa)};
-};
+// class hgun_Pistol_heavy_01_F;
+// class AUC_Pistol_45: hgun_Pistol_heavy_01_F
+// {
+//     _generalMacro="AUC_Pistol_45";
+//     baseWeapon="AUC_Pistol_45";
+//     scope=2;
+//     displayname="FNX-45 Phoenix";
+//     magazines[]=
+//     {
+//         "5Rnd_45ACP_EXP_Mag"
+//     };
+//     magazineWell[]=
+//     {
+//         "PistolHeavy_01_45ACP"
+//     };
+//     hiddenSelectionsTextures[]={QPATHTOFOLDER(Data\Weapons\AUC_Pistol_45.paa)};
+// };
 class hgun_ACPC2_F;
 class AUC_Colt_Silver : hgun_ACPC2_F
 {

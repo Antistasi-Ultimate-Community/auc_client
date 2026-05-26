@@ -150,15 +150,15 @@ class CfgUnitInsignia
 	#include "CfgInsignias.hpp"
 };
 
-class CfgMagazines
-{
-	#include "CfgMagazines.hpp"
-};
+// class CfgMagazines
+// {
+// 	#include "CfgMagazines.hpp"
+// };
 
-class CfgAmmo
-{
-	#include "CfgAmmo.hpp"
-};
+// class CfgAmmo
+// {
+// 	#include "CfgAmmo.hpp"
+// };
 
 class cfgWeapons 
 {
