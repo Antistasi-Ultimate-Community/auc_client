@@ -29,6 +29,12 @@
 #define VERSION MAJOR.MINOR.PATCH
 #define VERSION_AR MAJOR,MINOR,PATCH
 
-#define VERSION_CONFIG version = VERSION; versionStr = QUOTE(VERSION); versionAr[] = {VERSION_AR}
+#define A3A_COMPAT_MAJOR 12
+#define A3A_COMPAT_MINOR 0
+
+#define VERSION_CONFIG version = VERSION; \
+    versionStr = QUOTE(VERSION); \
+    versionAr[] = {VERSION_AR}; \
+    A3A_compatibility[] = {A3A_COMPAT_MAJOR, A3A_COMPAT_MINOR}
 
 #define REQUIRED_VERSION 1.0.0
